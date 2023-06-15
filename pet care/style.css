@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgb(0,0,0,0.5)50%,rgb(0,0,0,0.5)50%),url("./images/1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float:left;
+    height: 75px;
+}
+
+.logo{
+    color: rgb(202, 41, 68);
+    font-size:35px ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:10px;
+    float: left;
+    padding-top: 10px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 18px;
+ }
+
+ ul li a{
+    text-decoration: none;
+    color:rgb(226, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+ }
+
+ ul li a:hover{
+    color:rgb(202, 41, 68) ; 
+ }
+
+ .search{
+    margin:px;
+    float: right;
+    
+   
+ }
+
+ .srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(202, 41, 68);
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+
+ .btn{
+    width: 100px;
+    height: 40px;
+    background:rgb(202, 41, 68) ;
+    border: 2px solid rgb(202, 41, 68);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+
+ .btn:focus{
+    outline: none;
+ }
+
+ .srch:focus{
+    outline: none;
+ }
+
+ .content{
+  width: 1200px;
+  height: auto;  
+  margin-top: 50px;
+  margin-left: 120px;
+  position: relative;
+  color:rgb(226, 239, 239) ;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .content .par{
+  word-spacing: 1.5px;
+  color:rgb(226, 239, 239);
+  font-weight: bolder;
+  font-size: large;
+ }
+
+ .content .cn{
+    width: 160px;
+    height: 40px;
+    background:rgb(202, 41, 68);
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size:18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+ }
+
+ .content .cn a{
+    text-decoration: none;
+    color: azure;
+    transition: 0.3s ease;
+ }
+ 
+ .cn:hover{
+    background-color:rgb(187, 231, 232) ;
+    color: rgb(49, 84, 84);
+ }
+ 
+ .form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top,rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 20px;
+ }
+
+ .form h2{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:rgb(202, 41, 68) ;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+
+ .form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(202, 41, 68) ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .form input:focus{
+    outline: none;
+ }
+
+ ::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .btnn{
+    width: 240px;
+    height: 40px;
+    background:rgb(202, 41, 68)  ;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+ }
+
+ .btnn:hover{
+    background: #fff;
+    color: rgb(202, 41, 68) ;
+ }
+
+ .btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+
+ .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+ }
+
+ .form .link a{
+    text-decoration: none;
+    color: #aa2c45 ;
+ }
+
+ .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+ }
+
+ .icons{
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 5px;
+ }

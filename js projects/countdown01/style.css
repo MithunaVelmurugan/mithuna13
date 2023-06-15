@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&family=Rubik+Dirt&family=Zeyada&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* background:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),url()); */
+    background-image: url(./images/img.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Audiowide', cursive; 
+    /* font-family: 'Zeyada', cursive; */
+   
+}
+.counter{
+    display: flex;
+    justify-content: center;
+
+   
+}
+p{
+font-size: 35px;
+color: white;
+/* font-family:'Rubik Dirt', cursive; */
+}
+#new{
+    font-family: 'Zeyada', cursive;
+    font-size: 120px;
+    font-weight:400;
+    /* margin-top: 10px; */
+}
+.box{
+    width:70px;
+    height: 90px;
+    text-align: center;
+    padding:20px;
+    align-items: center;
+}
+ 
+.box h2{
+    font-size: 35px;
+ 
+}
+.box small{
+    font-size: 12px;
+   
+}
+@media screen and (min-width:768px){
+    .new{
+        font-size: 160px;
+    }
+}
+@media screen and (min-width:572px){
+    .new{
+        font-size: 60px;
+    }
+}
+.box h2{
+    font-weight: 400;
+}
+
+
+
+
